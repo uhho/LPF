@@ -14,14 +14,14 @@ npm install lpf
 
 ## Examples
 
-```
-Array of values
+```js
+// Array of values
 LPF.smoothing = 0.5;
 var values = [10,8,9,10,12,8,50,10,12,8];
 LPF.smoothArray(values)
 // RESULT: [10,9,9,10,11,9,30,20,16,12]
 
-Stream
+// Stream
 LPF.smoothing = 0.2;
 LPF.init([10,10,10,10,10,10,10,10,10,10]);
 LPF.next(20); // around 12.0

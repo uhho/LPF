@@ -1,0 +1,30 @@
+{
+  "name": "lpf",
+  "version": "1.0.0",
+  "description": "Low Pass Filter for JavaScript",
+  "keywords": [
+    "smoothing",
+    "filter",
+    "low-pass",
+    "noise"
+  ],
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "mocha -R spec"
+  },
+  "author": "Lukasz Krawczyk",
+  "license": "MIT",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LukaszKrawczyk/LPF.git"
+  },
+  "bugs": {
+    "url": "https://github.com/LukaszKrawczyk/LPF/issues"
+  },
+  "homepage": "https://github.com/LukaszKrawczyk/LPF"
+}
